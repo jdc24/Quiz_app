@@ -13,6 +13,10 @@ header {
     text-align: center;
 }
 
+
+
+
+
 .card {
     margin: 150px 10%;
     border-radius: 20px;
@@ -31,11 +35,22 @@ footer {
     display: flex;
     justify-content: space-around;
     bottom: 0;
-    width: 100%;
     left: 0;
     right: 0;
     align-items: center;
 }
+
+.tag-section {
+    display: flex;
+    gap: 20px;
+}
+
+.tag {
+    border: solid black;
+    background-color: lightgray;
+    padding: 10px 10px 10px 10px;
+}
+
 button {
     height: 50px;
     width: 100px;
